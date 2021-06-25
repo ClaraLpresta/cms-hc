@@ -1,0 +1,10 @@
+query PrestashopHeader {
+  prestashopheader {
+    id
+    title
+    description
+    image {
+      url
+    }
+  }
+} 

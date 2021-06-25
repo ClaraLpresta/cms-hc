@@ -1,0 +1,12 @@
+query HomePresta {
+  homePresta {
+    title
+    header {
+      title
+      description
+      image {
+        url
+      }
+    }
+  }
+}

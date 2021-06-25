@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/markdownit": "^2.0.0",
+    "core-js": "^3.9.1",
+    "graphql": "^15.5.1",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-div": "^1.1.0",
+    "nuxt": "^2.15.3",
+    "uikit": "^3.6.22"
+  },
+  "devDependencies": {}
+}

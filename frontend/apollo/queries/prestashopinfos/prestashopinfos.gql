@@ -1,0 +1,12 @@
+query PrestaShopInfos {
+  prestaShopInfos {
+    id
+    icon{
+      url
+    }
+    title
+    description
+    buttontext
+    url
+  }
+}
