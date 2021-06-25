@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/presta-shop-infos",
+      "handler": "presta-shop-infos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presta-shop-infos/count",
+      "handler": "presta-shop-infos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presta-shop-infos/:id",
+      "handler": "presta-shop-infos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/presta-shop-infos",
+      "handler": "presta-shop-infos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/presta-shop-infos/:id",
+      "handler": "presta-shop-infos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/presta-shop-infos/:id",
+      "handler": "presta-shop-infos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

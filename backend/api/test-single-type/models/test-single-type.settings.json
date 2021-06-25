@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_single_types",
+  "info": {
+    "name": "Test single type",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

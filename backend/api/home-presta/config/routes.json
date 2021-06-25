@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-presta",
+      "handler": "home-presta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-presta",
+      "handler": "home-presta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-presta",
+      "handler": "home-presta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
