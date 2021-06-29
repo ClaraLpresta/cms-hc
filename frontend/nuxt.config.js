@@ -42,7 +42,7 @@ export default {
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: 'http://strapi.connaissance.prestashop.net/graphql'
+        httpEndpoint: 'http://localhost:1337/graphql'
       }
     }
   },
