@@ -12,7 +12,7 @@
         <div v-for="dish in restaurant.dishes" v-bind:key="dish.id" class="uk-margin">
             <div class="uk-card uk-card-default">
                 <div class="uk-card-media-top">
-                    <img :src="'http://strapi.connaissance.prestashop.net/' + dish.image.url" alt="" />
+                    <img :src="'http://strapi-back.connaissance.prestashop.net/' + dish.image.url" alt="" />
                 </div>
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">{{ dish.name }} <span class="uk-badge">{{ dish.price }}€</span></h3>

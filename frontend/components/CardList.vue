@@ -2,7 +2,7 @@
   <div>
     <div class="card">
       <a :href="url" target="">
-          <img :src="'http://strapi.connaissance.prestashop.net' + icon.url" alt="Agences" >
+          <img :src="'http://strapi-back.connaissance.prestashop.net' + icon.url" alt="Agences" >
           <h3 class="headings h3 grey-darkest card-title">{{title}}</h3>
           <p>{{description}}</p>
           <div>{{buttontext}}</div>
