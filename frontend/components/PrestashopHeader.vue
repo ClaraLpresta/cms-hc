@@ -5,7 +5,7 @@
       <p>{{description}}</p>
     </div>
     <div>
-      <img :src="'http://localhost:1337' + image.url">
+      <img :src="'http://strapi.connaissance.prestashop.net' + image.url">
     </div>
   </div>
 </template>
