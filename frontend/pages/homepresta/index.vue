@@ -1,6 +1,17 @@
 <template>
   <div>
-    <PrestashopHeader :title='homePresta.header.title' :description='homePresta.header.description' :image='homePresta.header.image' />
+    <p>Appeler par un composant</p>
+    <!-- <PrestashopHeader :title='homePresta.header.title' :description='homePresta.header.description' :image='homePresta.header.image' /> -->
+    <p>Appeler par les variables</p>
+    <div class="flex">
+      <div>
+        <h1>{{homePresta.header.title}}</h1>
+        <p>{{homePresta.header.description}}</p>
+      </div>
+      <div>
+        <img :src="'http://strapi.connaissance.prestashop.net/' + homePresta.header.image.url">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -11,7 +22,7 @@ import PrestashopHeader from '~/components/PrestashopHeader'
 export default {
   data() {
     return {
-      // Initialize an empty HomePresta variabkle
+      // Initialize an empty HomePresta variable
       homePresta: [],
       query: ''
     }
