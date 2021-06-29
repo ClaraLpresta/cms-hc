@@ -10,7 +10,7 @@
       <!-- Restaurant cards -->
       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" v-for="restaurant in filteredList" v-bind:key="restaurant" uk-grid>
           <div class="uk-card-media-left uk-cover-container">
-              <img :src="'http://localhost:1337' + restaurant.image.url" :alt="restaurant.image.alternativeText" uk-cover>
+              <img :src="'http://strapi.connaissance.prestashop.net/' + restaurant.image.url" :alt="restaurant.image.alternativeText" uk-cover>
               <canvas width="600"></canvas>
           </div>
           <div>
