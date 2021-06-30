@@ -1,17 +1,6 @@
 <template>
   <div>
-    <p>Appeler par un composant</p>
-    <!-- <PrestashopHeader :title='homePresta.header.title' :description='homePresta.header.description' :image='homePresta.header.image' /> -->
-    <p>Appeler par les variables</p>
-    <div class="flex">
-      <div>
-        <h1>{{homePresta.header.title}}</h1>
-        <p>{{homePresta.header.description}}</p>
-      </div>
-      <div>
-        <img :src="'http://strapi-back.connaissance.prestashop.net' + homePresta.header.image.url">
-      </div>
-    </div>
+   <PrestashopHeader :title='homePresta.header.title' :description='homePresta.header.description' :image='homePresta.header.image' />
   </div>
 </template>
 
