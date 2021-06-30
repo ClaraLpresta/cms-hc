@@ -9,7 +9,7 @@
         <p>{{homePresta.header.description}}</p>
       </div>
       <div>
-        <img :src="'http://strapi.connaissance.prestashop.net' + homePresta.header.image.url">
+        <img :src="'http://strapi-back.connaissance.prestashop.net' + homePresta.header.image.url">
       </div>
     </div>
   </div>
